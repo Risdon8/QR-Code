@@ -24,3 +24,12 @@ h1 {
     font-family: [Outfit](https://fonts.google.com/specimen/Outfit);
     font-weight: 400, 700;
 }
+
+img {
+    text-align: center;
+    align-items: center;
+}
+
+.border {
+    
+}
