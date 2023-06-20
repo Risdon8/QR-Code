@@ -30,6 +30,7 @@ body {
     align-items: center;
     justify-content: center;
     height: calc(100vh - 1px);
+    margin: 1.25rem;
 }
 
 .border {
@@ -37,14 +38,27 @@ body {
     padding: 20px;
     width: 200px;
     height: 200px;
-    
 }
 
 .container {
    background-color: var(--white);
    padding: 1.25rem;
    border-radius: 0.625rem;
-   box-shadow: 5px 5px 5px rgba (0,0,0,0.2);
+   box-shadow: 5px 5px 5px rgba (0,0,0,0.1);
+   margin-bottom: 2rem;
+}
+
+.container img {
+    border-radius: 0.625rem;
+    margin-bottom: 1rem;
+}
+
+.container h1 {
+    color: var(--dark-blue);
+}
+
+.container p {
+    color: var(--grayish-blue);
 }
 
 .attribution {font-size: 11px; text-align: center; }
