@@ -1,30 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
-Mobile: 375px
-- Desktop: 1440px
 
-## Colors
 :root {
     --white: hsl(0, 0%, 100%);
     --light-gray: hsl(212, 45%, 89%);
     --grayish-blue: hsl(220, 15%, 55%);
     --dark-blue: hsl(218, 44%, 22%);
 }
-## Typography
 
-### Body Copy
-
-- Font size (paragraph): 15px
-
-### Font
-
-- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
-- Weights: 400, 700
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 h1 {
     font-size:(paragraph): 15px;
     font-family: [Outfit](https://fonts.google.com/specimen/Outfit);
     font-weight: 400, 700;
-
 }
 
 img {
